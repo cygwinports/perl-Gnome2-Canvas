@@ -1,0 +1,116 @@
+perl-Gnome2-Canvas
+-------------------------------------------
+Perl bindings for libgnomecanvas-2.0.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  gdk-pixbuf2-2.12.7-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.7-1
+  libgnomecanvas2-2.20.0.1-1
+  perl-5.10.0-3
+  perl-Glib-1.164-1
+  perl-Gtk2-1.164-1
+
+Build requirements:
+  binutils-20050610-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-Canvas-1.002-4-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./Gnome2-Canvas-1.002-4.sh all
+
+This will create:
+  /usr/src/perl-Gnome2-Canvas-1.002-4-src.tar.bz2
+  /usr/src/perl-Gnome2-Canvas-1.002-4.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Bpath.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Ellipse.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Group.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Install/canvas.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Install/gnomecanvasperl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Install/gnomecanvasperl-version.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Install/gnomecanvasperl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Install/gnomecanvasperl.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Item.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Line.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/PathDef.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Pixbuf.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/RE.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Rect.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/RichText.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Shape.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/Widget.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Canvas/version.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Canvas/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Canvas/Canvas.dll
+  /usr/share/doc/perl-Gnome2-Canvas-1.002/AUTHORS
+  /usr/share/doc/perl-Gnome2-Canvas-1.002/ChangeLog
+  /usr/share/doc/perl-Gnome2-Canvas-1.002/LICENSE
+  /usr/share/doc/perl-Gnome2-Canvas-1.002/NEWS
+  /usr/share/doc/perl-Gnome2-Canvas-1.002/README
+  /usr/share/doc/perl-Gnome2-Canvas-1.002/TODO
+  /usr/share/man/man3/Gnome2.Canvas.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Bpath.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Ellipse.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Group.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Item.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Line.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.PathDef.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Pixbuf.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.RE.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Rect.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.RichText.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Shape.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.Widget.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.index.3pm.gz
+  /usr/share/man/man3/Gnome2.Canvas.version.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.002-5 -----
+Rebuilt for perl-5.10.
+
+----- version 1.002-4 -----
+Rebuilt for compatibility with libgnomecanvas-2.12; for details, see: 
+http://mail.gnome.org/archives/gtk-perl-list/2005-December/msg00012.html
+
+----- version 1.002-3 -----
+Rebuilt for perl-5.8.7 with --enable-auto-image-base.
+
+----- version 1.002-2 -----
+Rebuilt for perl-5.8.6 with a new build script.
+
+----- version 1.002-1 -----
+New upstream version, built with perl-5.8.5.
+
+----- version 1.001-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
