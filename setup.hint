@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libgnomecanvas2 perl perl-Glib perl-Gtk2
+requires: cygwin libgcc1 libglib2.0_0 libgtk2.0_0 libgnomecanvas2_0 perl perl-Glib perl-Gtk2
 sdesc: "Perl bindings for libgnomecanvas-2.0"
 ldesc: "Perl bindings for libgnomecanvas-2.0."
