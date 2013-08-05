@@ -1,4 +1,0 @@
-category: Perl Gnome
-requires: libgcc1 libglib2.0_0 libgtk2.0_0 libgnomecanvas2_0 perl perl-Glib perl-Gtk2
-sdesc: "Perl bindings for libgnomecanvas-2.0"
-ldesc: "Perl bindings for libgnomecanvas-2.0."
