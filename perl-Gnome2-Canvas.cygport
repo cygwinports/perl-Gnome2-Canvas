@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gnome2-Canvas"
 VERSION=1.002
-RELEASE=11
+RELEASE=12
 CATEGORY="Perl"
 SUMMARY="Perl bindings for libgnomecanvas-2.0"
 DESCRIPTION="Perl bindings for libgnomecanvas-2.0."
